@@ -1,0 +1,123 @@
+Generate a complete web application named "Smarttools" – All-in-One Free Online Tools". The app should include over 30 essential utility tools, with each tool available in its own section or page.
+
+
+### ✅ Functional Requirements:
+
+Include the following tools in the app:
+1. QR Code Generator
+2. Random Password Generator
+3. Text Case Converter
+4. Word & Character Counter
+5. JSON Formatter
+6. Lorem Ipsum Generator
+7. Base64 Encoder/Decoder
+8. URL Encoder/Decoder
+9. HTML Encoder/Decoder
+10. Binary ↔ Decimal ↔ Hex Converter
+11. Epoch ↔ Human Time Converter
+12. Percentage Calculator
+13. Loan EMI Calculator
+14. BMI Calculator
+15. Age Calculator
+16. Unit Converter
+17. Temperature Converter
+18. Countdown Timer
+19. Time Zone Converter
+20. UTM Link Builder
+21. Text Reverser
+22. Coin Toss Simulator
+23. Dice Roller
+24. Color Picker
+25. Regex Tester
+26. Number to Words Converter
+27. Text to Speech
+28. Password Strength Checker
+29. Image to Base64 Converter
+30. Tip Calculator
+31. Discount Calculator
+32. Word Frequency Counter
+33. Meta Tag Generator
+34. WiFi QR Code Generator
+35. Random Number Generator
+
+---
+
+### ✅ SEO Requirements (Apply to Every Tool Section/Page):
+
+1. **SEO-Optimized HTML `<head>` Section:**
+   - Title tag with high-searched keywords (e.g., "Free QR Code Generator Online – ToolNest")
+   - Meta description tag: 140–160 characters with tool-specific keywords
+   - Meta keywords tag: include at least 4-5 popular keywords per tool
+   - Canonical URL
+   - Open Graph meta tags for title, description, URL, and image
+   - Twitter card meta tags
+   - Favicon link
+   - Mobile-responsive viewport meta tag
+
+2. **Content Structure:**
+   - Use semantic HTML5 tags: `<header>`, `<main>`, `<section>`, `<footer>`
+   - Use heading tags properly:
+     - `<h1>` – tool name using high-volume keywords
+     - `<h2>` – one-line feature or benefit
+     - `<h3>` – optional usage info or secondary heading
+
+3. **Homepage:**
+   - Show all tools in a modern card/grid layout
+   - Each card links to tool section/page
+   - Include intro text for SEO using keywords like:
+     - "All-in-one free tools"
+     - "Online utilities for developers, marketers, and general users"
+     - "ToolNest helps you get more done in one place"
+
+4. **Page URL structure:**
+   - URLs should be keyword-based (e.g., `/qr-code-generator`, `/bmi-calculator`)
+   - Avoid query strings for primary tool access
+
+5. **Image and Icon Optimization:**
+   - Use descriptive `alt` text for images and icons
+   - Lazy-load if needed
+
+6. **Fast performance:**
+   - Lightweight code (vanilla only)
+   - CSS via CDN or minified custom styles
+   - JS loaded with `defer`
+
+7. **Mobile Friendly:**
+   - Responsive layout with media queries
+   - Touch-friendly UI for inputs and buttons
+
+---
+
+### ✅ File Structure Requirements:
+
+1. **index.html**
+   - Navigation bar with links to each tool
+   - Hero section with H1 heading using sitewide keywords
+   - Tool grid
+   - Footer with copyright
+   - Tool sections or tool page template with:
+     - Unique title/meta tags
+     - Proper SEO heading structure (H1-H2-H3)
+     - Link to `style.css` and `script.js`
+
+2. **style.css**
+   - Mobile-first responsive design
+   - Font from Google Fonts (e.g., Poppins or Inter)
+   - Card/grid layout for tool items
+   - Styling for inputs, buttons, and results
+   - Light color theme, optional dark mode toggle
+
+3. **script.js**
+   - Include all tool logic in one file (well-organized, separated by comments per tool)
+   - Use `qrcode.min.js` CDN for QR tool
+   - Use native JS APIs where possible (e.g., SpeechSynthesis, Date, Math)
+
+---
+
+📌 Please provide the full code in three separate parts:
+1. `index.html`  
+2. `style.css`  
+3. `script.js`
+
+Make sure the output is clean, readable, non-minified, and can run directly on Replit or local server without any backend.
+
